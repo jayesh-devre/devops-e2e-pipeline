@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Local overrides
+*.local.yaml
+docs/*
